@@ -1,4 +1,7 @@
-# History by Date
+# Chrome History by Date
+
+[![Latest release](https://img.shields.io/github/v/release/howtoexitvim/chrome-history-by-date)](https://github.com/howtoexitvim/chrome-history-by-date/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A Chrome extension that lists your browsing history in plain reverse-chronological order.
 
@@ -7,12 +10,20 @@ flat list, newest first, with date headings.
 
 ## Install
 
-Not on the Chrome Web Store. Load it unpacked:
+Download the install-ready ZIP from [the latest release](https://github.com/howtoexitvim/chrome-history-by-date/releases/latest). No build step is needed.
 
-1. Open `chrome://extensions/`
-2. Enable **Developer mode**
-3. Choose **Load unpacked** and select this directory
-4. Pin **History by Date** from the extensions menu in the toolbar
+1. Download `chrome-history-by-date-<version>.zip` from the release assets.
+2. Extract the ZIP and keep the `chrome-history-by-date` folder in a permanent location.
+3. Open `chrome://extensions/` and enable **Developer mode**.
+4. Choose **Load unpacked** and select the extracted folder containing `manifest.json`.
+5. Pin **History by Date** from the extensions menu in the toolbar.
+
+This extension is not published on the Chrome Web Store. Downloading the ZIP
+does not install it automatically; Chrome requires the unpacked installation
+steps above. You can also clone this repository and load its root folder.
+
+For an update, replace the files in the same installation folder and click
+**Reload** on the extension card at `chrome://extensions/`.
 
 The ID of an unpacked extension is derived from its path, so moving the directory
 makes Chrome treat it as a new extension. It will need to be loaded and pinned again.
