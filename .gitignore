@@ -1,0 +1,27 @@
+.DS_Store
+*.zip
+*.crx
+*.pem
+node_modules/
+dist/
+build/
+*.log
+
+
+# Personal development notes and logs
+[Ll][Oo][Gg]*
+**/[Ll][Oo][Gg]*
+logs/
+notes/
+# Local credentials, browser profiles, and signing keys
+.env
+.env.*
+*.key
+*.p12
+*.p8
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+Profile*/
+Default/
