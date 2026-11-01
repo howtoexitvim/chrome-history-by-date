@@ -111,3 +111,4 @@ node --test tests/popup.test.cjs
 ```
 
 Tests use synthetic browser API responses and do not access browser profiles.
+
